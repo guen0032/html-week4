@@ -11,17 +11,29 @@
         <h1>HTML Week 4 - Images, Links, Forms, and Tables</h1>
         <nav>
           <a href="about.html">About</a>
+          <!-- names anchors use the # to target an id attribute on another tag -->
+          <a href="#cats">Cats</a>
         </nav>
     </header>
     <main>
       <!-- the src, or source, is and attribute that tells the image tag which image it should display -->
-      <img src="images/kitten.jpg" alt="kitten sleeping" width="300" title="cute kitten"/>
+      <img src="images/kitten.jpg" alt="kitten sleeping" width="1000" title="cute kitten"/>
+
       <article>
-        <!--the a tag, or anchor tag, creates a link to take a user somewhere else -->
-        <!--the href tag tells the browser where the link should go  -->
+        <!-- the a tag, or anchor tag, creates a link to take a user somewhere else -->
+        <!-- the href tag tells the browser where the link should go  -->
         <!-- the text between the opening and closing tags is what the user clicks -->
         <!-- _blank in the target attribut opens a new tab -->
         <a href="https://google.ca" target="_blank">Google</a>
+      </article>
+
+      <article id="cats">
+        <p>Things my cat does that keep me up at night</p>
+        <ul>
+          <li>Scratches at the door</li>
+          <li>Attacks my feet</li>
+          <li>Chases the other cats</li>
+        </ul>
       </article>
     </main>
     <footer>
