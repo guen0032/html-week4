@@ -62,6 +62,33 @@
         <label for="info">enter the info: </label>
         <textarea id="info" name="info"></textarea>
       </p>
+      <p>
+        <label for="fruit">Pick a fruit: </label>
+        <select id="fruit" name="fruit">
+          <!-- option tags must have a value,which is what gets sent with the form -->
+          <option value="default">Pick a fruit...</option>
+          <option value="banana">Banana</option>
+          <option value="apple">Apple</option>
+          <option value="grape">Grape</option>
+        </select>
+      </p>
+      <p>
+        <!-- the "checked" attribute on a checkbox makes it start checked off -->
+        <label for="spam">Spam me: </label>
+        <input type="checkbox" id="spam" checked>
+      </p>
+      <p>
+        <!-- radio buttons need to have a matching name attribute to make them a set -->
+        <span>Do you like dogs: </span>
+        <label for="yes">Yes!</labe>
+        <input type="radio" id="yes" name="dogs">
+        <label for="no">No...</label>
+        <input type="radio" id="no" name="dogs">
+      </p>
+      <p>
+        <!-- the submit button submits the form -->
+        <button type="submit" name="submit">Submit! </button>
+      </p>
     </form>
     </main>
     <footer>
