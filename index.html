@@ -35,6 +35,34 @@
           <li>Chases the other cats</li>
         </ul>
       </article>
+      <!-- the form tag defines the are of the form - when you submit, you submit all info inside that form -->
+    <form action="index.html" method="get">
+
+      <!-- the label and the input tag are linked - the for attribute in the label tag must match the id of the input tag -->
+      <!-- all form fields must have a type attribute (that defines what they are) and a name attribute (that the place you send that information to access each file) -->
+      <p>
+      <label for="username">Name: </label>
+      <input id="username" type ="text" name="username" placeholder="Bob Smith">
+      </p>
+      <p>
+        <label for="pass">Password: </label>
+        <input id="pass" type="password">
+      </p>
+      <p>
+        <label for="col">Pick a color: </label>
+        <input id="col" type="color">
+      </p>
+      <!-- the value attribute sets a default starting value for the form field -->
+      <p>
+        <label for="num">Pick a number: </label>
+        <input id="num" type="range" name="num" value="4">
+      </p>
+      <p>
+        <!-- text are is for multiple lines of text -->
+        <label for="info">enter the info: </label>
+        <textarea id="info" name="info"></textarea>
+      </p>
+    </form>
     </main>
     <footer>
         <article>&copy; Somebody, Somewhere, 2021</article>
